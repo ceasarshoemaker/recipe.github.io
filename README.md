@@ -1,1 +1,1 @@
-<a href="recipething.html">Click Here to view recipe</a>
+<a href="Recipe Book">Click Here to view recipe</a>
