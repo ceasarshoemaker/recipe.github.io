@@ -1,0 +1,147 @@
+<html>
+<head>
+    <title>Recipe Book</title>
+</head>
+<style>
+    h1{
+        color:hsl(24, 5%, 18%);
+        font-family: "georgia",serif;
+    }
+    h3{
+        color: hsl(332, 51%, 32%);
+        font-family: "georgia",serif;
+    }
+    h2{
+        color:hsl(14, 45%, 36%);
+        font-family: "georgia",serif;
+    }
+    h4{
+        color:hsl(14, 45%, 36%);
+        display:inline;
+        text-align: right;
+        font-family: "georgia",serif;
+    }
+    p{
+        font-family: "tahoma",sans-serif;
+        font-size: 16px;
+        color: hsl(30, 10%, 34%);
+    }
+    hr{
+        background-color: hsl(30, 18%, 87%);
+        height:1px;
+        border: none;
+    }
+    ul{
+        font-family: "tahoma",sans-serif;
+    }
+    ul li{
+        font-family: "tahoma",sans-serif;
+    }
+    ol {
+        list-style: none;
+        counter-reset: my-counter;
+        font-family: "tahoma",sans-serif;
+    }
+    ol li {
+        counter-increment: my-counter;
+        font-family: "tahoma",sans-serif;
+    }
+    ol li::before {
+        content: counter(my-counter) ". ";
+        color:hsl(14, 45%, 36%);
+        font-weight: bold;
+        font-family: "tahoma",sans-serif;
+    }
+    .lalign{
+        float: left;
+        padding-left:50px;
+    }
+    .ralign{
+        position: absolute;
+        left:800px;
+        color:hsl(14, 45%, 36%);
+        font-weight: bold;
+        font-family: "georgia",serif;
+    }
+    body{
+        background-color: hsl(30, 54%, 90%);
+        color: hsl(24, 5%, 18%);
+    }
+    .box1{
+        background-color: white;
+        border-radius: 10px;
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .box2{
+        background-color:hsl(330, 100%, 98%);
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 10px;
+        margin-top:15px;
+    }
+</style>
+
+<body>
+    <div class="box1">
+        <img class="pic" src="/Users/cedarschumacher/Downloads/recipe-page-main/assets/images/image-omelette.jpeg" alt="omelette">
+        <h1>Simple Omelette Recipe</h1>
+        <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+        <div class="box2">
+            <h3>Preperation Time</h3>
+            <p><b>•   Total: </b>Approximately 10 minutes</p>
+            <p><b>•   Preperation: </b>5 minutes</p>
+            <p><b>•   Cooking: </b>5 minutes</p>
+        </div>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, dived vegetables, cooked meats, herbs</li>
+        </ul>
+        <hr>
+        <h2>Instructions</h2>
+        <ol>
+            <li><b>Beat the eggs: </b>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+            <li><b>Heat the pan: </b>Place a non-stick frying pan over medium heat and add butter or oil.</li>
+            <li><b>Cook the omelette: </b>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+            <li><b>Add fillings (optional): </b>When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+            <li><b>Fold and serve: </b>As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+            <li><b>Enjoy: </b>Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+        <hr>
+        <h2>Nutrition</h2>
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>
+        <p>
+            <span class="lalign">Calories</span>
+            <span class="ralign">277kcal</span>
+        </p><br><hr>
+        <p>
+            <span class="lalign">Carbs</span>
+            <span class="ralign">0g</span>
+        </p><br><hr>
+        <p>
+            <span class="lalign">Protein</span>
+            <span class="ralign">20g</span>
+        </p><br><hr>
+        <p>
+            <span class="lalign">Fat</span>
+            <span class="ralign">22g</span>
+        </p><br><hr>
+    </div>
+</body>
+
+</html>
